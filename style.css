@@ -1,0 +1,55 @@
+/* Set the styling for the SVG and its elements */
+svg {
+    font: 14px sans-serif;
+    shape-rendering: crispEdges;
+  }
+
+.title {
+    font-size: 30px;
+}
+
+
+.axis line,
+.axis path {
+    stroke: #ddd; /* Light grey for the grid lines */
+}
+  
+.axis text {
+    fill: #444; /* Dark grey color for the text to ensure readability */
+    font-size: 14px;
+}
+  
+text {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+}
+  
+.legend text,
+.legend circle {
+    font-size: 12px; /* Ensure the legend is readable */
+}
+
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #e7e7e7;
+}
+
+
+.button-container {
+    position: fixed;
+    top: 50%;
+    right: 22%;
+    width: 100px;
+}
+  
+  
+  
+  
